@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body>
+		<button id="largura" style="width: 100px; height: 100px;">largura</button>
+		<button id="altura" style="width: 100px; height: 100px;">altura</button>
+		
+		<script>
+			var largura = $("#largura");
+			var altura = $("#altura");
+			
+			largura.on("click",function()
+			{
+				alert("A largura da tela é: "+$(window).width())
+			})
+			
+			altura.on("click",function()
+			{
+				alert("A altura da tela é: "+$(window).height())
+			})
+		</script>
+	</body>
+</html>
