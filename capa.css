@@ -1,0 +1,109 @@
+@media (min-width: 1px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa300x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa400x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 400px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa500x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 500px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa600x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 600px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa700x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa800x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 800px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa900x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 900px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capaOriginal960x640.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 1000px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa960x540.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capa960x440.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}

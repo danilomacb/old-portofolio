@@ -1,0 +1,35 @@
+/*cel w: 320-414 (367)|h: 568-823 (695)*/
+@media (min-width: 1px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codeOriginal1920x1032.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+/*tablet w: 768-1024 (896)|h: 1024-1366 (1195)*/
+@media (min-width: 700px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codeOriginal1920x1032.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+/*pc w: 1152-1920 (1536)|h: 864-1080 (972)*/
+@media (min-width: 1100px)
+{
+	.code
+	{
+		background-image: url(imagens/code/code1535x972.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
