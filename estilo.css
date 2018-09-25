@@ -2,6 +2,7 @@
 {
 	margin: 0px;
 	font-size: 60pt;
+	text-shadow: black 2px 2px 2px;
 }
 
 .h-2
@@ -29,6 +30,13 @@
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%); 
+}
+
+.baixo
+{
+	position: relative;
+	top: 100%;
+	transform: translateY(-100%); 
 }
 
 .cor1

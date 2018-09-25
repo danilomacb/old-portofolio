@@ -1,33 +1,33 @@
 /*cel: 980w | 1739 - 2122h*/
-.code
+.geometrica
 {
-	background-image: url(imagens/code/codex100.jpg);
+	background-image: url(imagens/geometrica/geometricax200.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	background-position: right top;
 }
 
 
 /*tablet: 980-1024w | 1306-1366h*/
 @media (max-height: 1500px)
 {
-	.code
+	.geometrica
 	{
-		background-image: url(imagens/code/codex100.jpg);
+		background-image: url(imagens/geometrica/geometricax140.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: right top;
 	}
 }
 
 /*pc: 1366w | 631h*/
 @media (max-height: 1100px)
 {
-	.code
+	.geometrica
 	{
-		background-image: url(imagens/code/codex70.jpg);
+		background-image: url(imagens/geometrica/geometricax100.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: right top;
 	}
 }
