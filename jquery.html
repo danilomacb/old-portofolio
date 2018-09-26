@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="capa.css">
 		<link rel="stylesheet" href="code.css">
 		<link rel="stylesheet" href="geometrica.css">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	</head>
 	<body class="text-light">
 	
@@ -39,7 +41,7 @@
 			  </div>
 			</nav>
 		
-			<div id="linha1" class="row fixed capa" >
+			<div id="linha1" class="row fixed m-0 cor1 capa" >
 				<div class="col-md-12 p-0" style="background-color: rgba(0,0,0,.5);">
 					<div class="text-center baixo">
 						<img src="imagens/perfil.jpg" class="rounded-circle" width="180px" height="180">
@@ -52,21 +54,36 @@
 				</div>				
 			</div>
 			
+			<div id="linha2" class="row m-0 cor1 code">
+				
+				<div class="w-100 h-100" style="background-color: rgba(0,0,0,.7);">
+					<div class="centro-vertical">
+						<i class="fas fa-graduation-cap fa-5x text-center w-100" ></i>
+						<h2 class="text-center h-2 p-1">Bacharel em Ciência da Computação</h2>
+						
+					
+						<i class="far fa-file-code fa-5x text-center w-100 my-2"></i>
+						<h2 class="text-center h-2 p-1">Desenvolvedor Web</h2>
+					
+					
+						<i class="fas fa-gamepad fa-5x text-center w-100 my-2"></i>
+						<h2 class="text-center h-2 p-1">Desenvolvedor de Jogos</h2>
+						
+					
+						<i class="fas fa-laptop fa-5x text-center w-100 my-2"></i>
+						<h2 class="text-center h-2 p-1">Programador</h2>
+					</div>
+				</div>
+			</div>
 			
-			<div id="linha2" class="row geometrica" style="background-color: rgba(0,0,0,.7);">
-				<div class=" col-md-12 px-3">
+			<div id="linha3" class="row m-0 geometrica" style="background-color: rgba(0,0,0,.7);">
+				<div class=" col-md-12 p-0">
 					<p style="color: white; padding: 60px 0px 0px 0px;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
 				</div>
 			</div>
 			
-			<div id="linha3" class="row geometrica">
+			<div id="linha4" class="row m-0 geometrica">
 				<div class="col-md-12" style="background-color: rgba(0,0,0,.7);">
-					<p style="color: white; padding: 60px 0px 0px 0px;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
-				</div>
-			</div>
-		
-			<div id="linha4" class="row code">
-				<div class="col-md-12">
 					<p style="color: white; padding: 60px 0px 0px 0px;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
 				</div>
 			</div>
@@ -77,7 +94,7 @@
 		
 		
 		<script>
-			var altura = $(document).height();
+			var altura = $(window).height();
 			var largura = $(document).width();
 			
 			$(".row").css("height", altura);
