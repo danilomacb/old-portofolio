@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>DMB</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" href="imagens/favicon.ico"/>
 		
 		<link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="frameworks/bootstrap/css/bootstrap-theme.min.css">
@@ -26,65 +29,343 @@
 					
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item">
-							<a class="nav-link" href="#linha1">Linha1</a>
+							<a id="l1" class="nav-link text-center" href="#linha1">Linha1</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#linha2">Linha2</a>
+							<a id="l2" class="nav-link text-center" href="#linha2">Linha2</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#linha3">Linha3</a>
+							<a id="l3" class="nav-link text-center" href="#linha3">Linha3</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#linha4">Linha4</a>
+							<a id="l4" class="nav-link text-center" href="#linha4">Linha4</a>
+						</li>
+						<li class="nav-item">
+							<a id="l5" class="nav-link text-center" href="#linha5">Linha5</a>
 						</li>
 					</ul>
 			  </div>
 			</nav>
 		
-			<div id="linha1" class="row fixed m-0 cor1 capa" >
-				<div class="col-md-12 p-0" style="background-color: rgba(0,0,0,.5);">
-					<div class="text-center baixo">
-						<img src="imagens/perfil.jpg" class="rounded-circle" width="180px" height="180">
-					</div>
-				</div>
-				<div class="col-md-12 p-0" style="background-color: rgba(0,0,0,.5);">
-					<div class="text-center">
-						<h1 class="font-weight-bold h-1">Danilo Macedo Bakun</h1>
-					</div>
-				</div>				
-			</div>
-			
-			<div id="linha2" class="row m-0 cor1 code">
-				
-				<div class="w-100 h-100" style="background-color: rgba(0,0,0,.7);">
+			<div id="linha1" class="row altura fixed m-0 cor1 capa" >
+				<div class="w-100" style="background-color: rgba(0,0,0,.5);">
 					<div class="centro-vertical">
-						<i class="fas fa-graduation-cap fa-5x text-center w-100" ></i>
-						<h2 class="text-center h-2 p-1">Bacharel em Ciência da Computação</h2>
+						<div class="col-md-12 p-0">
+							<div class="text-center ">
+								<img src="imagens/perfil.jpg" class="rounded-circle" width="180px" height="180">
+							</div>
+						</div>
+						<div class="col-md-12 p-0">
+							<div class="text-center">
+								<h1 class="font-weight-bold h-1">Danilo Macedo Bakun</h1>
+							</div>
+						</div>
 						
-					
-						<i class="far fa-file-code fa-5x text-center w-100 my-2"></i>
-						<h2 class="text-center h-2 p-1">Desenvolvedor Web</h2>
-					
-					
-						<i class="fas fa-gamepad fa-5x text-center w-100 my-2"></i>
-						<h2 class="text-center h-2 p-1">Desenvolvedor de Jogos</h2>
-						
-					
-						<i class="fas fa-laptop fa-5x text-center w-100 my-2"></i>
-						<h2 class="text-center h-2 p-1">Programador</h2>
 					</div>
 				</div>
 			</div>
 			
-			<div id="linha3" class="row m-0 geometrica" style="background-color: rgba(0,0,0,.7);">
-				<div class=" col-md-12 p-0">
-					<p style="color: white; padding: 60px 0px 0px 0px;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
+			<div id="linha2" class="row altura m-0 cor1 code">
+				<div class="w-100" style="background-color: rgba(0,0,0,.8);">
+					<div class="centro-vertical">
+						<div class="col-xl-3 p-0 float-xl-left">
+							<i class="fas fa-graduation-cap fa-5x text-center w-100" ></i>
+							<h2 class="text-center">Bacharel em Ciência da Computação</h2>
+						</div>
+						<div class="col-xl-3 p-0 float-xl-left">
+							<i class="far fa-file-code fa-5x text-center w-100 my-2"></i>
+							<h2 class="text-center">Desenvolvedor Web</h2>
+						</div>	
+						<div class="col-xl-3 p-0 float-xl-left">
+							<i class="fas fa-gamepad fa-5x text-center w-100 my-2"></i>
+							<h2 class="text-center" >Desenvolvedor de Jogos</h2>
+						</div>		
+						<div class="col-xl-3 p-0 float-xl-left">
+							<i class="fas fa-laptop fa-5x text-center w-100 my-2"></i>
+							<h2 class="text-center">Programador</h2>
+						</div>
+					</div>
 				</div>
 			</div>
 			
-			<div id="linha4" class="row m-0 geometrica">
-				<div class="col-md-12" style="background-color: rgba(0,0,0,.7);">
-					<p style="color: white; padding: 60px 0px 0px 0px;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
+			<div id="linha3" class="row p-0 py-3 m-0 cor1 border-bottom">
+				<div class="col-md-3 p-0 py-1">
+					<h2 class="text-center h-2">Conhecimentos:</h2>
+				</div>
+				<div class="col-md-3 p-0 py-1">
+					<div class="text-center centro-vertical">
+						<h3 class="h-3">Básico: </h3>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 py-1">
+					<div class="text-center centro-vertical">
+						<h3 class="h-3">Intermediário: </h3>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 py-1">
+					<div class="text-center centro-vertical">
+						<h3 class="h-3">Avançado: </h3>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row p-0 m-0 py-3 cor1">
+				<div class="col-md-3 p-0 pb-3 ">
+					<div class="text-center">
+						<img src="imagens/icons8/html.png" class="tamanho">
+						<h4 class="h-4">HTML5: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3 ">
+					<div class="text-center">
+						<img src="imagens/icons8/css.png" class="tamanho">
+						<h4 class="h-4">CSS3: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3 ">
+					<div class="text-center">
+						<img src="imagens/icons8/php.png" class="tamanho">
+						<h4 class="h-4">PHP: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3 ">
+					<div class="text-center">
+						<img src="imagens/icons8/php-oo.png" class="tamanho">
+						<h4 class="h-4">PHP OO: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/mysql.png" class="border rounded tamanho">
+						<h4 class="h-4">MySQL: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/mysqli.png" class="tamanho">
+						<h4 class="h-4">MySQLi: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/sql-server.png" class="tamanho">
+						<h4 class="h-4">SQL Server: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/javascript.png" class="tamanho">
+						<h4 class="h-4">JavaScript: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>	
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/bootstrap.png" class="tamanho">
+						<h4 class="h-4">Bootstrap: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/wordpress.png" class="tamanho">
+						<h4 class="h-4">WordPress: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/c.png" class="tamanho">
+						<h4 class="h-4">C: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/java.png" class="tamanho">
+						<h4 class="h-4">Java: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/csharp.png" class="tamanho">
+						<h4 class="h-4">CSharp: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/unity.png" class="tamanho">
+						<h4 class="h-4">Unity: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/git.png" class="tamanho">
+						<h4 class="h-4">Git: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-3 p-0 pb-3">
+					<div class="text-center">
+						<img src="imagens/icons8/github.png" class="tamanho">
+						<h4 class="h-4">GitHub: </h4>
+						<i class="fas fa-circle"></i>
+						<i class="fas fa-circle"></i>
+						<i class="far fa-circle"></i>
+					</div>
+				</div>
+			</div>
+			
+			<div id="linha4" class="row altura m-0 geometrica" >
+				<div class="w-100" style="background-color: rgba(0,0,0,.8);">
+					<div class="centro-vertical p-0 m-0">
+						<div class="row p-0 m-0">
+							<div class="col-xl-6 p-0 px-3">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="imagens/snowli/cutscene.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Cutscene</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/1.jpg">
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 1</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/2.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 2</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/3.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 3</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/4.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 4</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/5.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 5</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/6.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 6</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/7.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 7</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/8.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level 8</h3><br>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="imagens/snowli/bonus.jpg" >
+											<div class="carousel-caption d-none d-md-block">
+												<h3 class="rounded h-3 fundo">Level Bônus</h3><br>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-xl-6 p-0 px-3" >
+								<div class="text-center">
+									<h4 class="h-4">Snowli</h4>
+								</div>
+								<h5 class="h-5">É um game de Aventura e Plataforma 2D ambientado no visual de Pixel Art. Foi desenvolvido durante a game jam jaaj do canal do youtube Amdré Young. Ele possui uma história que é contada através de cutscenes e 8 leveis, possui também um level bônus que apresenta um nível de dificuldade mais elevado.</h5><br>
+								
+								<h4 class="h-4">Desenvolvedor: </h4>
+								<img src="imagens/snowli/betcast.png" class="rounded-circle" width="150px" height="75"><br>
+								
+								<a class="btn btn-light  m-1" href="https://gamejolt.com/games/snowli/365006" role="button">Download</a>
+								
+								<a class="btn btn-light m-1" href="https://www.youtube.com/watch?v=_3Qv-23iwq0" role="button">Vídeo da Jam</a>
+								
+								<a class="btn btn-light m-1" href="http://jams.gamejolt.io/gamejaaj/games" role="button">Página da Jam</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="linha5" class="row altura m-0 geometrica">
+				<div class="w-100" style="background-color: rgba(0,0,0,.7);">
+				
 				</div>
 			</div>
 		</div>
@@ -95,14 +376,50 @@
 		
 		<script>
 			var altura = $(window).height();
-			var largura = $(document).width();
+			//var largura = $(document).width();
 			
-			$(".row").css("height", altura);
-			$(".row").css("width", largura);
+			$(".altura").css("height", altura);
+			//$(".row").css("width", largura);
 			
-			var link = $("#menu li a");
+			var l1 = $("#l1");
 			
-			link.on("click", function()
+			l1.on("click", function()
+			{
+				var seletor = $(this).attr("href");
+				var posicao = $(seletor).offset().top;
+				$("html, body").animate({scrollTop: posicao-0},1000)
+			})
+			
+			var l2 = $("#l2");
+			
+			l2.on("click", function()
+			{
+				var seletor = $(this).attr("href");
+				var posicao = $(seletor).offset().top;
+				$("html, body").animate({scrollTop: posicao-20},1000)
+			})
+			
+			var l3 = $("#l3");
+			
+			l3.on("click", function()
+			{
+				var seletor = $(this).attr("href");
+				var posicao = $(seletor).offset().top;
+				$("html, body").animate({scrollTop: posicao-50},1000)
+			})
+			
+			var l4 = $("#l4");
+			
+			l4.on("click", function()
+			{
+				var seletor = $(this).attr("href");
+				var posicao = $(seletor).offset().top;
+				$("html, body").animate({scrollTop: posicao-0},1000)
+			})
+			
+			var l5 = $("#l5");
+			
+			l5.on("click", function()
 			{
 				var seletor = $(this).attr("href");
 				var posicao = $(seletor).offset().top;
