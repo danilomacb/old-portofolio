@@ -142,7 +142,7 @@ pc - 1100
 	.conhecimentosfs1
 	{
 		margin: 0px;
-		font-size: 20pt;
+		font-size: 30pt;
 		font-weight: bold;
 		display: inline;
 		text-shadow: black 2px 2px 2px;
@@ -177,7 +177,7 @@ pc - 1100
 	.conhecimentosfs2
 	{
 		margin: 0px;
-		font-size: 12pt;
+		font-size: 25pt;
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
