@@ -1,15 +1,5 @@
-/*cel: 980w | 1739 - 2122h*/
-.code
-{
-	background-image: url(imagens/code/codex100.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-}
-
-
-/*tablet: 980-1024w | 1306-1366h*/
-@media (max-height: 1500px)
+/*cel*/
+@media (min-width: 300px)
 {
 	.code
 	{
@@ -20,8 +10,20 @@
 	}
 }
 
-/*pc: 1366w | 631h*/
-@media (max-height: 1100px)
+/*tablet*/
+@media (min-width: 700px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codex130.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+/*pc*/
+@media (min-width: 1100px)
 {
 	.code
 	{

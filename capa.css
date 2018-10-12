@@ -1,15 +1,17 @@
-/*cel: 980w | 1739 - 2122h*/
-.capa
+/*cel*/
+@media (min-width: 300px)
 {
-	background-image: url(imagens/capa/capax330.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+	.capa
+	{
+		background-image: url(imagens/capa/capax130.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
 }
 
-
-/*tablet: 980-1024w | 1306-1366h*/
-@media (max-height: 1500px)
+/*tablet*/
+@media (min-width: 700px)
 {
 	.capa
 	{
@@ -20,8 +22,8 @@
 	}
 }
 
-/*pc: 1366w | 631h*/
-@media (max-height: 1100px)
+/*pc*/
+@media (min-width: 1100px)
 {
 	.capa
 	{
