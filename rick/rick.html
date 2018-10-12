@@ -3,18 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Rick Rich Is The Glich Buster</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>Rick Rich Is The Glich Buster</title>
+    <link rel="shortcut icon" href="../imagens/rick/favicon.ico">
+	
     <link rel="stylesheet" href="TemplateData/style.css">
+	
+	<link rel="stylesheet" type="text/css" href="../frameworks/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../frameworks/bootstrap/css/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" href="../estilo.css">
+		
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Web2.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
-    </div>
-  </body>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" id="menu">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+					
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link text-center menufs" href="../jquery.html">Voltar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-center menufs" href="#" onclick="resolucao()">Resolução de Tela</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+  
+		<div class="webgl-content mt-5">
+			<div id="gameContainer" style="width: 1280px; height: 720px"></div>
+		</div>
+		
+		<script>
+			function resolucao()
+			{
+				alert("Use F11 para deixar o navegador em tela cheia, ou diminua o zoom do navegador para visualisar melhor");
+			}
+		</script>
+	</body>
 </html>
