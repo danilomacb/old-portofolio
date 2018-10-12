@@ -1,0 +1,13 @@
+{
+"companyName": "Achenar Studios",
+"productName": "Rick Rich Is The Glich Buster",
+"dataUrl": "Web2.data.unityweb",
+"wasmCodeUrl": "Web2.wasm.code.unityweb",
+"wasmFrameworkUrl": "Web2.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#0D131E",
+"cacheControl": {"default": "must-revalidate"}
+}
