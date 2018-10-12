@@ -6,11 +6,11 @@
 }
 
 .h-2
-{
-	margin: 0px;
-	font-size: 20pt;
-	text-shadow: black 2px 2px 2px;
-}
+	{
+		margin: 0px;
+		font-size: 30pt;
+		text-shadow: black 2px 2px 2px;
+	}
 
 .h-3
 {
@@ -24,14 +24,7 @@
 {
 	margin: 0px;
 	font-size: 12pt;
-	display: inline;
-	text-shadow: black 2px 2px 2px;
-}
-
-.h-5
-{
-	margin: 0px;
-	font-size: 10pt;
+	font-weight: bold;
 	display: inline;
 	text-shadow: black 2px 2px 2px;
 }
@@ -70,4 +63,276 @@
 {
 	background-color: rgba(0,0,0,.5);
 	padding: 0px 4px 0px 4px;
+}
+
+/*
+cel - 300
+tablet - 700
+pc - 1100
+*/
+
+@media (min-width: 300px)
+{
+	.menufs
+	{
+		font-size: 15pt;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.menufs
+	{
+		font-size: 20pt;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.menufs
+	{
+		font-size: 12pt;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.resumofs
+	{
+		margin: 0px;
+		font-size: 15pt;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.resumofs
+	{
+		margin: 0px;
+		font-size: 30pt;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.resumofs
+	{
+		margin: 0px;
+		font-size: 20pt;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.conhecimentosfs1
+	{
+		margin: 0px;
+		font-size: 20pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.conhecimentosfs1
+	{
+		margin: 0px;
+		font-size: 20pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.conhecimentosfs1
+	{
+		margin: 0px;
+		font-size: 20pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.conhecimentosfs2
+	{
+		margin: 0px;
+		font-size: 15pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.conhecimentosfs2
+	{
+		margin: 0px;
+		font-size: 12pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.conhecimentosfs2
+	{
+		margin: 0px;
+		font-size: 15pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.projetosfs1
+	{
+		margin: 0px;
+		font-size: 12pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.projetosfs1
+	{
+		margin: 0px;
+		font-size: 23pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.projetosfs1
+	{
+		margin: 0px;
+		font-size: 18pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.projetosfs2
+	{
+		margin: 0px;
+		font-size: 10pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.projetosfs2
+	{
+		margin: 0px;
+		font-size: 20pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.projetosfs2
+	{
+		margin: 0px;
+		font-size: 15pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capax130.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capax220.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa/capax140.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codex100.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codex130.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+@media (min-width: 1100px)
+{
+	.code
+	{
+		background-image: url(imagens/code/codex70.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+}
+
+.geometrica
+{
+	background-image: url(imagens/geometrica/geometricax100.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
 }
