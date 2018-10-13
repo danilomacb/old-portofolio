@@ -26,25 +26,25 @@
 					
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item">
-							<a id="l1" class="nav-link text-center menufs" href="#inicio">Início</a>
+							<a class="nav-link text-center menufs linha" href="#inicio">Início</a>
 						</li>
 						<li class="nav-item">
-							<a id="l2" class="nav-link text-center menufs" href="#resumo">Resumo</a>
+							<a class="nav-link text-center menufs linha" href="#resumo">Resumo</a>
 						</li>
 						<li class="nav-item">
-							<a id="l3" class="nav-link text-center menufs" href="#conhecimentos">Conhecimentos</a>
+							<a id="linhaConhecimentos" class="nav-link text-center menufs" href="#conhecimentos">Conhecimentos</a>
 						</li>
 						<li class="nav-item">
-							<a id="l4" class="nav-link text-center menufs" href="#snowli">Snowli</a>
+							<a class="nav-link text-center menufs linha" href="#snowli">Snowli</a>
 						</li>
 						<li class="nav-item">
-							<a id="l5" class="nav-link text-center menufs" href="#avalanche">Avalanche</a>
+							<a class="nav-link text-center menufs linha" href="#avalanche">Avalanche</a>
 						</li>
 						<li class="nav-item">
-							<a id="l6" class="nav-link text-center menufs" href="#rickRich">Rick Rich Is The Glich Buster</a>
+							<a class="nav-link text-center menufs linha" href="#rickRich">Rick Rich Is The Glich Buster</a>
 						</li>
 						<li class="nav-item">
-							<a id="l7" class="nav-link text-center menufs" href="#contato">Contato</a>
+							<a class="nav-link text-center menufs linha" href="#contato">Contato</a>
 						</li>
 					</ul>
 			  </div>
@@ -661,76 +661,29 @@
 		<script src="frameworks/jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
 		<script src="frameworks/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 		
-		
 		<script>
 			var altura = $(window).height();
-			//var largura = $(document).width();
 			
 			$(".altura").css("height", altura);
-			//$(".row").css("width", largura);
 			
-			var l1 = $("#l1");
+			var linha = $(".linha");
 			
-			l1.on("click", function()
+			linha.on("click", function()
 			{
 				var seletor = $(this).attr("href");
 				var posicao = $(seletor).offset().top;
 				$("html, body").animate({scrollTop: posicao-0},1000)
 			})
 			
-			var l2 = $("#l2");
+			var linhaConhecimentos = $("#linhaConhecimentos");
 			
-			l2.on("click", function()
-			{
-				var seletor = $(this).attr("href");
-				var posicao = $(seletor).offset().top;
-				$("html, body").animate({scrollTop: posicao-20},1000)
-			})
-			
-			var l3 = $("#l3");
-			
-			l3.on("click", function()
+			linhaConhecimentos.on("click", function()
 			{
 				var seletor = $(this).attr("href");
 				var posicao = $(seletor).offset().top;
 				$("html, body").animate({scrollTop: posicao-50},1000)
 			})
 			
-			var l4 = $("#l4");
-			
-			l4.on("click", function()
-			{
-				var seletor = $(this).attr("href");
-				var posicao = $(seletor).offset().top;
-				$("html, body").animate({scrollTop: posicao-0},1000)
-			})
-			
-			var l5 = $("#l5");
-			
-			l5.on("click", function()
-			{
-				var seletor = $(this).attr("href");
-				var posicao = $(seletor).offset().top;
-				$("html, body").animate({scrollTop: posicao-0},1000)
-			})
-			
-			var l6 = $("#l6");
-			
-			l6.on("click", function()
-			{
-				var seletor = $(this).attr("href");
-				var posicao = $(seletor).offset().top;
-				$("html, body").animate({scrollTop: posicao-0},1000)
-			})
-			
-			var l7 = $("#l7");
-			
-			l7.on("click", function()
-			{
-				var seletor = $(this).attr("href");
-				var posicao = $(seletor).offset().top;
-				$("html, body").animate({scrollTop: posicao-0},1000)
-			})
 		</script>
 	</body>
 </html>
