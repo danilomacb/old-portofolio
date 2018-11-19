@@ -65,6 +65,14 @@
 	padding: 0px 4px 0px 4px;
 }
 
+.geometrica
+{
+	background-image: url(imagens/geometrica/geometricax100.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+}
+
 /*
 cel - 300
 tablet - 700
@@ -77,56 +85,14 @@ pc - 1100
 	{
 		font-size: 15pt;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.menufs
-	{
-		font-size: 20pt;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.menufs
-	{
-		font-size: 12pt;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.resumofs
 	{
 		margin: 0px;
 		font-size: 15pt;
 		text-shadow: black 2px 2px 2px;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.resumofs
-	{
-		margin: 0px;
-		font-size: 30pt;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.resumofs
-	{
-		margin: 0px;
-		font-size: 20pt;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.conhecimentosfs1
 	{
 		margin: 0px;
@@ -135,34 +101,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.conhecimentosfs1
-	{
-		margin: 0px;
-		font-size: 30pt;
-		font-weight: bold;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.conhecimentosfs1
-	{
-		margin: 0px;
-		font-size: 20pt;
-		font-weight: bold;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.conhecimentosfs2
 	{
 		margin: 0px;
@@ -170,32 +109,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.conhecimentosfs2
-	{
-		margin: 0px;
-		font-size: 25pt;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.conhecimentosfs2
-	{
-		margin: 0px;
-		font-size: 15pt;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.projetosfs1
 	{
 		margin: 0px;
@@ -204,34 +118,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.projetosfs1
-	{
-		margin: 0px;
-		font-size: 23pt;
-		font-weight: bold;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.projetosfs1
-	{
-		margin: 0px;
-		font-size: 18pt;
-		font-weight: bold;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.projetosfs2
 	{
 		margin: 0px;
@@ -239,32 +126,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.projetosfs2
-	{
-		margin: 0px;
-		font-size: 20pt;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.projetosfs2
-	{
-		margin: 0px;
-		font-size: 15pt;
-		display: inline;
-		text-shadow: black 2px 2px 2px;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.capa
 	{
 		background-image: url(imagens/capa/capax130.jpg);
@@ -272,32 +134,7 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-}
-
-@media (min-width: 700px)
-{
-	.capa
-	{
-		background-image: url(imagens/capa/capax220.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.capa
-	{
-		background-image: url(imagens/capa/capax140.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-	}
-}
-
-@media (min-width: 300px)
-{
+	
 	.code
 	{
 		background-image: url(imagens/code/codex100.jpg);
@@ -309,6 +146,68 @@ pc - 1100
 
 @media (min-width: 700px)
 {
+	.menufs
+	{
+		font-size: 20pt;
+	}
+	
+	.resumofs
+	{
+		margin: 0px;
+		font-size: 30pt;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.conhecimentosfs1
+	{
+		margin: 0px;
+		font-size: 30pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.conhecimentosfs2
+	{
+		margin: 0px;
+		font-size: 25pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.projetosfs1
+	{
+		margin: 0px;
+		font-size: 23pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.projetosfs2
+	{
+		margin: 0px;
+		font-size: 20pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.projetosfs2
+	{
+		margin: 0px;
+		font-size: 15pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.capa
+	{
+		background-image: url(imagens/capa/capax220.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	
 	.code
 	{
 		background-image: url(imagens/code/codex130.jpg);
@@ -320,6 +219,52 @@ pc - 1100
 
 @media (min-width: 1100px)
 {
+	.menufs
+	{
+		font-size: 12pt;
+	}
+	
+	.resumofs
+	{
+		margin: 0px;
+		font-size: 20pt;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.conhecimentosfs1
+	{
+		margin: 0px;
+		font-size: 20pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.conhecimentosfs2
+	{
+		margin: 0px;
+		font-size: 15pt;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.projetosfs1
+	{
+		margin: 0px;
+		font-size: 18pt;
+		font-weight: bold;
+		display: inline;
+		text-shadow: black 2px 2px 2px;
+	}
+	
+	.capa
+	{
+		background-image: url(imagens/capa/capax140.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	
 	.code
 	{
 		background-image: url(imagens/code/codex70.jpg);
@@ -327,12 +272,4 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-}
-
-.geometrica
-{
-	background-image: url(imagens/geometrica/geometricax100.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: right top;
 }
