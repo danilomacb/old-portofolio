@@ -60,6 +60,16 @@
 	background-color: #2E2E2E;
 }
 
+.degrade
+{
+	background: linear-gradient(to right, #263238, #212121);
+}
+
+.degrade2
+{
+	background: linear-gradient(to right, #212121, #263238);
+}
+
 .tamanho
 {
 	height: 40px; 
@@ -79,6 +89,11 @@
 	background-attachment: fixed;
 	background-position: right top;
 }
+
+.barra {border:1px solid #ccc; width: 150px; display: inline-block; vertical-align: middle;}
+.barra-iniciante {background: linear-gradient(to right, #00c853, #4caf50); height:20px; width:33%;}
+.barra-intermediario {background: linear-gradient(to right, #00c853, #388e3c ); height:20px; width:66%;}
+.barra-avancado {background: linear-gradient(to right, #00c853, #1b5e20); height:20px; width:100%;}
 
 /*
 cel - 300
@@ -115,6 +130,7 @@ pc - 1100
 		font-size: 12pt;
 		display: inline;
 		text-shadow: black 2px 2px 2px;
+		vertical-align: middle;
 	}
 	
 	.projetosfs1
@@ -191,6 +207,7 @@ pc - 1100
 		font-size: 25pt;
 		display: inline;
 		text-shadow: black 2px 2px 2px;
+		vertical-align: middle;
 	}
 	
 	.projetosfs1
@@ -275,6 +292,7 @@ pc - 1100
 		font-size: 15pt;
 		display: inline;
 		text-shadow: black 2px 2px 2px;
+		vertical-align: middle;
 	}
 	
 	.projetosfs1
