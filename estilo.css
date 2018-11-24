@@ -110,7 +110,7 @@ pc - 1100
 {
 	.menufs
 	{
-		color: white;
+		color: white !important;
 		font-weight: bold;
 		font-size: 15pt;
 	}
@@ -189,7 +189,7 @@ pc - 1100
 {
 	.menufs
 	{
-		color: white;
+		color: white !important;
 		font-weight: bold;
 		font-size: 20pt;
 	}
@@ -276,7 +276,7 @@ pc - 1100
 {
 	.menufs
 	{
-		color: white;
+		color: white !important;
 		font-size: 12pt;
 		font-weight: bold;
 	}
