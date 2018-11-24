@@ -70,6 +70,11 @@
 	background: linear-gradient(to top, #212121, #263238);
 }
 
+.degrade3
+{
+	background: linear-gradient(to bottom, #263238, #000000);
+}
+
 .tamanho
 {
 	height: 40px; 
@@ -105,6 +110,8 @@ pc - 1100
 {
 	.menufs
 	{
+		color: white;
+		font-weight: bold;
 		font-size: 15pt;
 	}
 	
@@ -182,6 +189,8 @@ pc - 1100
 {
 	.menufs
 	{
+		color: white;
+		font-weight: bold;
 		font-size: 20pt;
 	}
 	
@@ -267,7 +276,9 @@ pc - 1100
 {
 	.menufs
 	{
+		color: white;
 		font-size: 12pt;
+		font-weight: bold;
 	}
 	
 	.resumofs
