@@ -37,7 +37,7 @@
 							<a class="nav-link text-center menufs linha" href="#resumo">Resumo</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-center menufs linha" href="#conhecimentos">Conhecimentos</a>
+							<a id="linhaConhecimentos" class="nav-link text-center menufs" href="#conhecimentos">Conhecimentos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link text-center menufs linha" href="#snowli">Snowli</a>
@@ -664,6 +664,13 @@
 			})
 			
 			var linhaConhecimentos = $("#linhaConhecimentos");
+			
+			linhaConhecimentos.on("click", function()
+			{
+				var seletor = $(this).attr("href");
+				var posicao = $(seletor).offset().top;
+				$("html, body").animate({scrollTop: posicao - 50},1000)
+			})
 		</script>
 	</body>
 </html>
