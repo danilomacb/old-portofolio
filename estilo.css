@@ -88,10 +88,33 @@
 	background-position: right top;
 }
 
-.barra {border:1px solid #ccc; width: 150px; display: inline-block; vertical-align: middle;}
-.barra-iniciante {background: linear-gradient(to right, #00c853, #4caf50); height:20px; width:33%;}
-.barra-intermediario {background: linear-gradient(to right, #00c853, #388e3c ); height:20px; width:66%;}
-.barra-avancado {background: linear-gradient(to right, #00c853, #1b5e20); height:20px; width:100%;}
+.barra 
+{
+	border:1px solid #ccc; width: 150px; display: inline-block; vertical-align: middle;
+}
+.barra-iniciante
+{
+	background: linear-gradient(to right, #00c853, #4caf50); height:20px; width:33%;
+}
+.barra-intermediario 
+{
+	background: linear-gradient(to right, #00c853, #388e3c ); height:20px; width:66%;
+}
+.barra-avancado 
+{
+	background: linear-gradient(to right, #00c853, #1b5e20); height:20px; width:100%;
+}
+
+.menufs:hover
+{
+	color: blue !important;
+}
+
+.botao:hover
+{
+	background-color: #00c853 !important;
+	color: white !important;
+}
 
 /*
 cel - 300
