@@ -40,7 +40,7 @@
 {
 	position: relative;
 	top: 100%;
-	transform: translateY(-100%); 
+	transform: translateY(-100%);
 }
 
 .cor1
@@ -70,7 +70,7 @@
 
 .tamanho
 {
-	height: 40px; 
+	height: 40px;
 	width: 40px;
 }
 
@@ -88,7 +88,7 @@
 	background-position: right top;
 }
 
-.barra 
+.barra
 {
 	border:1px solid #ccc; width: 150px; display: inline-block; vertical-align: middle;
 }
@@ -96,13 +96,13 @@
 {
 	background: linear-gradient(to right, #00c853, #4caf50); height:20px; width:33%;
 }
-.barra-intermediario 
+.barra-intermediario
 {
 	background: linear-gradient(to right, #00c853, #388e3c ); height:20px; width:66%;
 }
-.barra-avancado 
+.barra-avancado
 {
-	background: linear-gradient(to right, #00c853, #1b5e20); height:20px; width:100%;
+	background: linear-gradient(to right, #00c853, #1b5e20); height:20px; width:90%;
 }
 
 .menufs:hover
@@ -130,14 +130,14 @@ pc - 1100
 		font-weight: bold;
 		font-size: 15pt;
 	}
-	
+
 	.resumofs
 	{
 		margin: 0px;
 		font-size: 15pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs1
 	{
 		margin: 0px;
@@ -146,7 +146,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs2
 	{
 		margin: 0px;
@@ -155,7 +155,7 @@ pc - 1100
 		text-shadow: black 2px 2px 2px;
 		vertical-align: middle;
 	}
-	
+
 	.projetosfs1
 	{
 		margin: 0px;
@@ -164,7 +164,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.projetosfs2
 	{
 		margin: 0px;
@@ -172,7 +172,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.capa
 	{
 		background-image: url(imagens/capa/capax130.jpg);
@@ -180,7 +180,7 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.code
 	{
 		background-image: url(imagens/code/codex100.jpg);
@@ -188,31 +188,31 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.tamanho-carousel
 	{
 		width: 75%;
 	}
-	
+
 	.resumo-icone
 	{
 		width: 70px;
 		height: 70px;
 	}
-	
+
 	.nome
 	{
 		margin: 0px;
 		font-size: 40pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.betcast
 	{
 		width: 80px;
 		height: 40px;
 	}
-	
+
 	.achenar
 	{
 		width: 40px;
@@ -228,14 +228,14 @@ pc - 1100
 		font-weight: bold;
 		font-size: 20pt;
 	}
-	
+
 	.resumofs
 	{
 		margin: 0px;
 		font-size: 30pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs1
 	{
 		margin: 0px;
@@ -244,7 +244,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs2
 	{
 		margin: 0px;
@@ -253,7 +253,7 @@ pc - 1100
 		text-shadow: black 2px 2px 2px;
 		vertical-align: middle;
 	}
-	
+
 	.projetosfs1
 	{
 		margin: 0px;
@@ -262,7 +262,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.projetosfs2
 	{
 		margin: 0px;
@@ -270,7 +270,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.projetosfs2
 	{
 		margin: 0px;
@@ -278,7 +278,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.capa
 	{
 		background-image: url(imagens/capa/capax220.jpg);
@@ -286,7 +286,7 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.code
 	{
 		background-image: url(imagens/code/codex130.jpg);
@@ -294,31 +294,31 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.tamanho-carousel
 	{
 		width: 100%;
 	}
-	
+
 	.resumo-icone
 	{
 		width: 80px;
 		height: 80px;
 	}
-	
+
 	.nome
 	{
 		margin: 0px;
 		font-size: 50pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.betcast
 	{
 		width: 120px;
 		height: 60px;
 	}
-	
+
 	.achenar
 	{
 		width: 60px;
@@ -334,14 +334,14 @@ pc - 1100
 		font-size: 12pt;
 		font-weight: bold;
 	}
-	
+
 	.resumofs
 	{
 		margin: 0px;
 		font-size: 20pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs1
 	{
 		margin: 0px;
@@ -350,7 +350,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.conhecimentosfs2
 	{
 		margin: 0px;
@@ -359,7 +359,7 @@ pc - 1100
 		text-shadow: black 2px 2px 2px;
 		vertical-align: middle;
 	}
-	
+
 	.projetosfs1
 	{
 		margin: 0px;
@@ -368,7 +368,7 @@ pc - 1100
 		display: inline;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.capa
 	{
 		background-image: url(imagens/capa/capax140.jpg);
@@ -376,7 +376,7 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.code
 	{
 		background-image: url(imagens/code/codex70.jpg);
@@ -384,31 +384,31 @@ pc - 1100
 		background-attachment: fixed;
 		background-position: center;
 	}
-	
+
 	.tamanho-carousel
 	{
 		width: 100%;
 	}
-	
+
 	.resumo-icone
 	{
 		width: 100px;
 		height: 100px;
 	}
-	
+
 	.nome
 	{
 		margin: 0px;
 		font-size: 60pt;
 		text-shadow: black 2px 2px 2px;
 	}
-	
+
 	.betcast
 	{
 		width: 150px;
 		height: 75px;
 	}
-	
+
 	.achenar
 	{
 		width: 75px;
