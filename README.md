@@ -1,4 +1,6 @@
-Projeto criado com a finalidade de testar meus conhecimentos no framework Bootstrap e divulgar meu trabalho no github pages, criando um site estático, responsivo e com boa aparência que serve como currículo e portfólio.
+Finalidade:
+
+ - Criar um site portfólio para divulgar meus projetos.
 
 Ferramentas utilizadas:
 
@@ -8,16 +10,6 @@ Ferramentas utilizadas:
 
 - JavaScript
 
-- jQuery
+Imagem retirada de:
 
-- Bootstrap
-
-Icones:
-
-- https://fontawesome.com/
-
-- https://icons8.com/
-
-Cores:
-
-- https://mdbootstrap.com/css/colors/
+ - https://visualhunt.com/photo/141563/
