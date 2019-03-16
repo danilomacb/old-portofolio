@@ -1,6 +1,6 @@
 Finalidade:
 
- - Criar um site portfólio para divulgar meus projetos.
+- Criar um site portfólio para divulgar meus projetos.
 
 Ferramentas utilizadas:
 
@@ -12,4 +12,8 @@ Ferramentas utilizadas:
 
 Imagem retirada de:
 
- - https://visualhunt.com/photo/141563/
+- https://visualhunt.com/photo/141563/
+
+Icones retirados de:
+
+- https://icons8.com/
