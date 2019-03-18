@@ -1,4 +1,4 @@
-function startOnBody() {
+function socialHover() {
 
     /* SOCIAL ICONS */
 
@@ -79,4 +79,11 @@ function startOnBody() {
     function whatsappOut() {
         whatsapp.setAttribute('src','images/icons/social/whatsapp.png');
     }
+}
+
+
+function profileBackgroundHeight() {
+    var windowHeightLessMenu = document.documentElement.clientHeight - 50;
+
+    document.getElementById("profileBackground").style.height = windowHeightLessMenu+"px";
 }
