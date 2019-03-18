@@ -4,10 +4,10 @@
     list-style: none;
     text-decoration: none;
     font-family: helvetica;
-    color: white;
+    color: rgb(50,200,150);
 }
 body {
-    background:  rgb(100,0,250);
+    background:  rgb(0,20,30);
 }
 nav {
     position: fixed;
@@ -32,8 +32,8 @@ nav ul li a {
     border-radius: 5px; 
 }
 nav ul li a:hover {
-    text-decoration: underline;
-    background-color: rgb(100,0,250);
+    background-color: rgb(50,200,150);
+    color: black;
 }
 
 
@@ -71,9 +71,9 @@ nav ul li a:hover {
     text-align: center;
 }
 #about {
-    background: rgba(0,0,0,.5);
     padding: 20px;
-    border-radius: 20px;  
+    border-radius: 20px;
+    border: 1px solid rgb(50,200,150);  
 }
 .aboutText {
     margin-top: 20px;
@@ -96,7 +96,7 @@ nav ul li a:hover {
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
-    background: radial-gradient(rgba(0,0,0,.2), rgba(0,0,0,.8)); 
+    border: 1px solid rgb(50,200,150);
 }
 .skillName {
     text-align: center;
