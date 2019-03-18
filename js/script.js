@@ -1,4 +1,4 @@
-function start() {
+function startOnBody() {
 
     /* SOCIAL ICONS */
 
