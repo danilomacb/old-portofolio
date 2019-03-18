@@ -1,3 +1,4 @@
+/* All Pages */
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +10,12 @@
 body {
     background:  rgb(0,20,30);
 }
+.container {
+    max-width: 1000px;
+    margin: 100px auto 100px auto;
+}
+
+/* Menu */
 nav {
     position: fixed;
     top: 0;
@@ -35,11 +42,9 @@ nav ul li a:hover {
     background-color: rgb(50,200,150);
     color: black;
 }
-
-
-.container {
-    max-width: 1000px;
-    margin: 100px auto 100px auto;
+.selected {
+    background-color: rgb(50,200,150);
+    color: black;
 }
 
 /* Inicio */
@@ -69,11 +74,14 @@ nav ul li a:hover {
 #profileName {
     font-size: 50px;
     text-align: center;
+    font-weight: bold;
 }
 #about {
     padding: 20px;
     border-radius: 20px;
-    border: 1px solid rgb(50,200,150);  
+    border: 1px solid rgb(50,200,150);
+    margin-left: 20px;
+    margin-right: 20px;  
 }
 .aboutText {
     margin-top: 20px;
@@ -100,17 +108,37 @@ nav ul li a:hover {
 }
 .skillName {
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* footer */
 footer {
     display: flex;
-    border-top: 1px solid rgb(50,200,150);
+    /* border-top: 1px solid rgb(50,200,150); */
+    background: linear-gradient(to bottom, #263238, #000000);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footerDivision {
     flex: 1;
+    text-align: center;
+}
+.footerTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footerSubTitle {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.socialLink {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .socialIcon {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
