@@ -110,10 +110,9 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
-/* footer */
+/* Footer */
 footer {
     display: flex;
-    /* border-top: 1px solid rgb(50,200,150); */
     background: linear-gradient(to bottom, rgb(30,50,60), rgb(10,30,40), rgb(0,0,0));
     padding-top: 30px;
     padding-bottom: 30px;
@@ -139,4 +138,21 @@ footer {
 .socialIcon {
     height: 40px;
     width: 40px;
+}
+
+/* Projetos */
+.project {
+    border: 1px solid rgb(50,200,150);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.projectTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+.project img {
+    max-width: 100%;
 }
