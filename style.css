@@ -167,3 +167,6 @@ footer {
     font-size: 14px;
     display: inline-block;
 }
+.description a:hover{
+    text-decoration: underline;
+}
