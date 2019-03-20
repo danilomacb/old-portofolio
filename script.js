@@ -87,10 +87,32 @@ function profileBackgroundHeight() {
 
 function certificadoMaxHeight() {
     var imgMaxHeight = document.documentElement.clientHeight - 100;
-    var thumbList = document.getElementsByClassName("thumb");
 
-    var count;
-    for (count = 0; count < thumbList.length; count++) {
+    var thumbList = document.getElementsByClassName("thumb");
+    for (var count = 0; count < thumbList.length; count++) {
         thumbList[count].style.maxHeight = imgMaxHeight+"px";
+    }
+}
+
+function toggle() {
+    if (document.querySelector("#ul").style.display == 'block') {
+        document.querySelector("#ul").style.display = 'none';
+
+        document.querySelector("#menuButton").style.backgroundColor = 'rgba(0,0,0,0)';
+
+        var barList = document.getElementsByClassName("bar");
+        for (var count2 = 0; count2 < barList.length; count2++) {
+            barList[count2].style.backgroundColor = "rgb(50,200,150)";
+        }
+    }
+    else {
+        document.querySelector("#ul").style.display = 'block';
+
+        document.querySelector("#menuButton").style.backgroundColor = 'rgb(50,200,150)';
+
+        var barList = document.getElementsByClassName("bar");
+        for (var count2 = 0; count2 < barList.length; count2++) {
+            barList[count2].style.backgroundColor = "black";
+        }
     }
 }
