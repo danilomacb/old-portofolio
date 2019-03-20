@@ -1,7 +1,5 @@
 function socialHover() {
 
-    /* SOCIAL ICONS */
-
     /* Github */
     var github = document.getElementById('github');
 
@@ -81,9 +79,18 @@ function socialHover() {
     }
 }
 
-
 function profileBackgroundHeight() {
     var windowHeightLessMenu = document.documentElement.clientHeight - 50;
 
     document.getElementById("profileBackground").style.height = windowHeightLessMenu+"px";
+}
+
+function certificadoMaxHeight() {
+    var imgMaxHeight = document.documentElement.clientHeight - 100;
+    var thumbList = document.getElementsByClassName("thumb");
+
+    var count;
+    for (count = 0; count < thumbList.length; count++) {
+        thumbList[count].style.maxHeight = imgMaxHeight+"px";
+    }
 }
