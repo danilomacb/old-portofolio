@@ -146,29 +146,87 @@ footer {
     border-radius: 20px;
     padding: 20px;
     margin: 0px 20px 20px 20px;
-
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 .title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 .thumb {
     max-width: 100%;
-}
-.description {
+    flex-grow: 0;
 }
 .descriptionTitle {
     font-weight: bold;
     font-size: 16px;
     margin-top: 5px;
+
+    display: inline-block;
 }
 .descriptionText {
     font-weight: normal;
     font-size: 14px;
+
+    display: inline-block;
 }
-.description a:hover{
+.descriptionText a:hover{
     text-decoration: underline;
+}
+
+/* Contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(50,200,150);
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+form textarea {
+    background-color: rgb(0,20,30);
+    border: 1px solid rgb(50,200,150);
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    resize: none;
+    height: 100px;
+    margin-top: 20px;
+}
+form input::placeholder {
+    color: rgba(50,200,150,.3);
+}
+#smallInputs {
+    flex: 1;
+
+    display: flex;
+}
+.smallInput {
+    flex: 1;
+}
+#largeInputs {
+    display: flex;
+    flex-direction: column;
+}
+.largeInput {
+    flex: 1;
+}
+#nome {
+    margin-right: 20px;
+}
+#enviar {
+    width: 100px;
+    font-weight: bold;
+}
+#enviar:hover {
+    background-color: rgb(50,200,150);
+    color: black;
 }
