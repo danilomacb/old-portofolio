@@ -95,7 +95,7 @@ function certificadoMaxHeight() {
 }
 
 function containerMinHeight() {
-    var minHeight = document.documentElement.clientHeight - 330;
+    var minHeight = document.documentElement.clientHeight - 370;
 
     var containerList = document.getElementsByClassName("container");
     for (var count = 0; count < containerList.length; count++) {
