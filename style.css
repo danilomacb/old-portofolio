@@ -164,6 +164,11 @@ nav ul li a:hover {
 }
 
 /* Contato */
+#containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 form {
     display: flex;
     flex-direction: column;

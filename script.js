@@ -94,6 +94,15 @@ function certificadoMaxHeight() {
     }
 }
 
+function containerMinHeight() {
+    var minHeight = document.documentElement.clientHeight - 330;
+
+    var containerList = document.getElementsByClassName("container");
+    for (var count = 0; count < containerList.length; count++) {
+        containerList[count].style.minHeight = minHeight+"px";
+    }
+}
+
 function toggle() {
     if (document.querySelector("#ul").style.display == 'block') {
         document.querySelector("#ul").style.display = 'none';
