@@ -167,6 +167,8 @@ nav ul li a:hover {
 form {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 form input {
     background-color: rgba(0,0,0,0);
@@ -279,6 +281,13 @@ footer {
 
     #profileBackground {
         background-size: 1500px auto;
+    }
+
+    #smallInputs {
+        flex-direction: column;
+    }
+    #nome {
+        margin: 0;
     }
 
     footer {
