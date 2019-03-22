@@ -247,6 +247,9 @@ footer {
     display: inline-block;
     margin-bottom: 20px;
 }
+.footerSubTitle a:hover {
+    text-decoration: underline;
+}
 .socialLink {
     margin-left: 5px;
     margin-right: 5px;
