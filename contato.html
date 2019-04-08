@@ -30,14 +30,14 @@
 			</nav>
 
 		<div id="containerForm" class="container">
-			<form action="#">
+			<form method="POST" action="send_form.php">
 				<div id="smallInputs">
-					<input id="nome" class="smallInput" type="text" placeholder="Nome">
-					<input class="smallInput" type="text" placeholder="Email">
+					<input name="nome" id="nome" class="smallInput" type="text" placeholder="Nome">
+					<input name="email" class="smallInput" type="text" placeholder="Email">
 				</div>
 				<div id="largeInputs">
-					<input class="largeInput" type="text" placeholder="Assunto">
-					<textarea class="largeInput">Formulário desativado temporariamente.</textarea>
+					<input name="assunto" class="largeInput" type="text" placeholder="Assunto">
+					<textarea name="mensagem" class="largeInput" placeholder="Escreva sua mensagem aqui."></textarea>
 				</div>
 				<input id="enviar" type="submit">
 			</form>

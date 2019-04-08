@@ -199,6 +199,9 @@ form textarea {
 form input::placeholder {
     color: rgba(50,200,150,.3);
 }
+form textarea::placeholder {
+    color: rgba(50,200,150,.3);
+}
 #smallInputs {
     flex: 1;
 
