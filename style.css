@@ -202,6 +202,14 @@ form input::placeholder {
 form textarea::placeholder {
     color: rgba(50,200,150,.3);
 }
+form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(0,20,30) inset;
+    -webkit-text-fill-color: rgb(50,200,150);
+}
+form textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(0,20,30) inset;
+    -webkit-text-fill-color: rgb(50,200,150);
+}
 #smallInputs {
     flex: 1;
 
