@@ -21,3 +21,7 @@ Imagem retirada de:
 Icones retirados de:
 
 - https://icons8.com/
+
+Imagens optmizadas em:
+
+- https://tinyjpg.com
