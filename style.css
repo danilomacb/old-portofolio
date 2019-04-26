@@ -190,7 +190,6 @@ form textarea {
     border: 1px solid rgb(50,200,150);
     border-radius: 10px;
     outline: none;
-    height: 30px;
     padding: 5px 20px 5px 20px;
     resize: none;
     height: 100px;
@@ -216,14 +215,11 @@ form textarea:-webkit-autofill {
     display: flex;
 }
 .smallInput {
-    flex: 1;
+    width: 50%;
 }
 #largeInputs {
     display: flex;
     flex-direction: column;
-}
-.largeInput {
-    flex: 1;
 }
 #nome {
     margin-right: 20px;
@@ -304,6 +300,9 @@ footer {
 
     #smallInputs {
         flex-direction: column;
+    }
+    .smallInput {
+        width: auto;
     }
     #nome {
         margin: 0;
