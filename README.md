@@ -1,12 +1,8 @@
-Site hospedado em:
-
-- danilomb.com
-
-Finalidade:
+## Objetivo:
 
 - Criar um site portfólio para divulgar meus projetos.
 
-Ferramentas utilizadas:
+## Linguagens:
 
 - HTML
 
@@ -14,14 +10,20 @@ Ferramentas utilizadas:
 
 - JavaScript
 
-Imagem retirada de:
+## Links:
+
+### Github Pages:
+
+- https://danilomacb.github.io/
+
+### Imagem retirada de:
 
 - https://visualhunt.com/photo/141563/
 
-Icones retirados de:
+### Icones retirados de:
 
 - https://icons8.com/
 
-Imagens optmizadas em:
+### Imagens optmizadas em:
 
 - https://tinyjpg.com
