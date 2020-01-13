@@ -52,19 +52,6 @@ function socialHover() {
         twitter.setAttribute('src','images/icons/social/twitter.png');
     }
 
-    /* Instagram */
-    var instagram = document.getElementById('instagram');
-
-    instagram.addEventListener('mouseover', instagramOver);
-    instagram.addEventListener('mouseout', instagramOut);
-
-    function instagramOver() {
-        instagram.setAttribute('src','images/icons/social/instagramOver.png');
-    }
-    function instagramOut() {
-        instagram.setAttribute('src','images/icons/social/instagram.png');
-    }
-
     /* Whatsapp */
     var whatsapp = document.getElementById('whatsapp');
 
